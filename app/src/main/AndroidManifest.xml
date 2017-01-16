@@ -85,7 +85,13 @@
         <activity android:name=".c33Activity" />
         <activity android:name=".KnowleageActivity" />
         <activity android:name=".Animal1" />
-        <activity android:name=".Animal2"></activity>
+        <activity android:name=".Animal2" />
+        <activity android:name=".HubAnimal2" />
+        <activity android:name=".Law1" />
+        <activity android:name=".Law2" />
+        <activity android:name=".TypeAnimal" />
+        <activity android:name=".Type1Animal" />
+        <activity android:name=".Type2Animal"></activity>
     </application>
 
 </manifest>
