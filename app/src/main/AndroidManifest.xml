@@ -92,7 +92,9 @@
         <activity android:name=".TypeAnimal" />
         <activity android:name=".Type1Animal" />
         <activity android:name=".Type2Animal" />
-        <activity android:name=".PlayGame1"></activity>
+        <activity android:name=".PlayGame1" />
+        <activity android:name=".PlayGame2" />
+        <activity android:name=".PlayGame3"></activity>
     </application>
 
 </manifest>
