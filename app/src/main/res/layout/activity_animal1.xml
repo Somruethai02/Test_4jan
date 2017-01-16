@@ -20,11 +20,19 @@
             android:orientation="vertical" >
 
             <TextView
-                android:text="TextView"
+                android:text="@string/animala"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView3"
-                android:textSize="18sp" />
+                android:textSize="30sp"
+                android:textStyle="normal|bold"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:text="@string/animail1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

@@ -127,6 +127,32 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/textView15" />
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/redg"
+                android:id="@+id/imageView7" />
+
+            <TextView
+                android:text="@string/contentv8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView16" />
+
+            <TextView
+                android:text="@string/contentv9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView17"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="@string/contentv10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView18" />
+
         </LinearLayout>
     </ScrollView>
 
