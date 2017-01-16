@@ -15,7 +15,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-    }   // Main Class
+    }   // Main Method
+
+    public void clickNewPlayGame(View view) {
+        startActivity(new Intent(MainActivity.this, PlayGame1.class));
+    }
 
     public void clickKnowleage(View view) {
         startActivity(new Intent(MainActivity.this, KnowleageActivity.class));
