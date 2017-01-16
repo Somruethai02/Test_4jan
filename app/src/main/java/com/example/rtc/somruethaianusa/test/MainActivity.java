@@ -15,7 +15,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+    }   // Main Class
+
+    public void clickKnowleage(View view) {
+        startActivity(new Intent(MainActivity.this, KnowleageActivity.class));
     }
+
     public void onClickone (View view) {
         ImageButton btn_next = (ImageButton)findViewById(R.id.imageButton1);
         Intent intent = new Intent(MainActivity.this,TwoActivity.class);
@@ -23,5 +28,5 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    }
-}
+    }   // onClickone
+}   // Main Class
