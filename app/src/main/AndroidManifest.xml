@@ -89,7 +89,9 @@
         <activity android:name=".HubAnimal2" />
         <activity android:name=".Law1" />
         <activity android:name=".Law2" />
-        <activity android:name=".TypeAnimal"></activity>
+        <activity android:name=".TypeAnimal" />
+        <activity android:name=".Type1Animal" />
+        <activity android:name=".Type2Animal"></activity>
     </application>
 
 </manifest>
