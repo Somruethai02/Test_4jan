@@ -91,7 +91,8 @@
         <activity android:name=".Law2" />
         <activity android:name=".TypeAnimal" />
         <activity android:name=".Type1Animal" />
-        <activity android:name=".Type2Animal"></activity>
+        <activity android:name=".Type2Animal" />
+        <activity android:name=".PlayGame1"></activity>
     </application>
 
 </manifest>
