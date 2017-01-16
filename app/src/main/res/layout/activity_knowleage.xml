@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_knowleage"
     android:layout_width="match_parent"
@@ -17,26 +18,6 @@
         android:id="@+id/textView"
         android:textSize="30sp"
         android:layout_centerHorizontal="true" />
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@+id/linKnowleage"
-        android:layout_below="@+id/textView">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" >
-
-            <TextView
-                android:text="TextView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView2"
-                android:textSize="18sp" />
-        </LinearLayout>
-    </ScrollView>
 
     <LinearLayout
         android:orientation="horizontal"
@@ -63,4 +44,90 @@
             android:onClick="clickAnimal2"
             android:layout_weight="1" />
     </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linKnowleage"
+        android:layout_below="@+id/textView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="@string/title_know"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="@string/contentv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/pic_know1"
+                android:id="@+id/imageView2" />
+
+            <TextView
+                android:text="@string/contentv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6" />
+
+            <TextView
+                android:text="@string/contentv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="@string/contentv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/pic"
+                android:id="@+id/imageView5" />
+
+            <TextView
+                android:text="@string/contentv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView13" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ii"
+                android:id="@+id/imageView6" />
+
+            <TextView
+                android:text="@string/contentv6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView14" />
+
+            <TextView
+                android:text="@string/contentv7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView15" />
+
+        </LinearLayout>
+    </ScrollView>
+
 </RelativeLayout>
