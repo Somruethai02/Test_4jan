@@ -12,11 +12,7 @@ public class fiveActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_five);
-    }
-    public void onClickvoo (View view) {
-        ImageButton btn_animal24 = (ImageButton)findViewById(R.id.imageButton47);
-        Intent intent = new Intent(fiveActivity.this,TreeActivity.class);
-        startActivity(intent);
+
     }
     public void onClickaoo (View view) {
         ImageButton btn_animal24 = (ImageButton) findViewById(R.id.imageButton45);

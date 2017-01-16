@@ -15,9 +15,8 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/home"
+        app:srcCompat="@drawable/next"
         android:id="@+id/imageButton58"
-        android:onClick="onClickmoo"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:background="@null" />

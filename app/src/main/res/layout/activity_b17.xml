@@ -10,7 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.rtc.somruethaianusa.test.b17Activity"
-    android:background="@drawable/str">
+    android:background="@drawable/stri">
 
     <ImageButton
         android:layout_width="wrap_content"

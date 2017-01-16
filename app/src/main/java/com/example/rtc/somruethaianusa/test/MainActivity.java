@@ -20,16 +20,8 @@ public class MainActivity extends AppCompatActivity {
         ImageButton btn_next = (ImageButton)findViewById(R.id.imageButton1);
         Intent intent = new Intent(MainActivity.this,TwoActivity.class);
         startActivity(intent);
-    }
-    public void onClicky (View view) {
-        ImageButton btn_next = (ImageButton)findViewById(R.id.imageButton2);
-        Intent intent = new Intent(MainActivity.this,TreeActivity.class);
-        startActivity(intent);
-    }
-    public void onClickyyy (View view) {
-        ImageButton btn_next = (ImageButton)findViewById(R.id.imageButton3);
-        Intent intent = new Intent(MainActivity.this,ShowDetailActivity.class);
-        startActivity(intent);
+
+
 
     }
 }

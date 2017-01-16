@@ -17,5 +17,6 @@ public class b16Activity extends AppCompatActivity {
         ImageButton btn_animal36 = (ImageButton)findViewById(R.id.imageButton35);
         Intent intent = new Intent(b16Activity.this,b17Activity.class);
         startActivity(intent);
+        finish();
     }
 }

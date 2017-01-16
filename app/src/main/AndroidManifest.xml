@@ -32,7 +32,6 @@
         <activity android:name=".a14Activity" />
         <activity android:name=".a15Activity" />
         <activity android:name=".b1Activity" />
-        <activity android:name=".TreeActivity" />
         <activity android:name=".b2Activity" />
         <activity android:name=".b3Activity" />
         <activity android:name=".b4Activity" />
@@ -57,10 +56,7 @@
         <activity android:name=".c5Activity" />
         <activity android:name=".c6Activity" />
         <activity android:name=".c7Activity" />
-        <activity android:name=".d1Activity" />
         <activity android:name=".fiveActivity" />
-        <activity android:name=".g1Activity" />
-        <activity android:name=".e1Activity" />
         <activity android:name=".c8Activity" />
         <activity android:name=".c9Activity" />
         <activity android:name=".c10Activity" />
@@ -72,7 +68,22 @@
         <activity android:name=".c16Activity" />
         <activity android:name=".c17Activity" />
         <activity android:name=".c18Activity" />
-        <activity android:name=".ShowDetailActivity"></activity>
+        <activity android:name=".c19Activity" />
+        <activity android:name=".c20Activity" />
+        <activity android:name=".c21Activity" />
+        <activity android:name=".c22Activity" />
+        <activity android:name=".c23Activity" />
+        <activity android:name=".c24Activity" />
+        <activity android:name=".c25Activity" />
+        <activity android:name=".c26Activity" />
+        <activity android:name=".c27Activity" />
+        <activity android:name=".c28Activity" />
+        <activity android:name=".c29Activity" />
+        <activity android:name=".c30Activity" />
+        <activity android:name=".c31Activity" />
+        <activity android:name=".c32Activity" />
+        <activity android:name=".c33Activity" />
+        <activity android:name=".kkkkActivity"></activity>
     </application>
 
 </manifest>
