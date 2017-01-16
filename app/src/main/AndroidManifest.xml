@@ -83,7 +83,7 @@
         <activity android:name=".c31Activity" />
         <activity android:name=".c32Activity" />
         <activity android:name=".c33Activity" />
-        <activity android:name=".kkkkActivity"></activity>
+
     </application>
 
 </manifest>

@@ -23,5 +23,5 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    }
-}
+    }   // onClickone
+}   // Main Class
