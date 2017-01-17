@@ -2,38 +2,40 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_play_game3"
+    android:id="@+id/activity_play_game4"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.rtc.somruethaianusa.test.PlayGame3"
-    android:background="@drawable/bg2">
+    tools:context="com.example.rtc.somruethaianusa.test.PlayGame4"
+    android:background="@drawable/bg3">
 
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
         app:srcCompat="@drawable/boo"
-        android:id="@+id/g"
-        android:layout_marginTop="90dp"
+        android:id="@+id/j"
+        android:layout_marginTop="145dp"
+        android:layout_marginLeft="30dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/boo"
+        android:id="@+id/k"
+        android:layout_marginTop="200dp"
         android:layout_marginLeft="40dp" />
 
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
         app:srcCompat="@drawable/boo"
-        android:id="@+id/h"
-        android:layout_marginTop="210dp"
-        android:layout_marginLeft="160dp" />
-
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        app:srcCompat="@drawable/boo"
-        android:id="@+id/i"
-        android:layout_alignTop="@+id/g"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:id="@+id/l"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="180dp" />
 </RelativeLayout>

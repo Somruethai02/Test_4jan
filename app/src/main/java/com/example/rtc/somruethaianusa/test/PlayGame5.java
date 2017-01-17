@@ -7,7 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 
-public class PlayGame2 extends AppCompatActivity implements View.OnClickListener {
+public class PlayGame5 extends AppCompatActivity implements View.OnClickListener {
 
     private ImageView imageView1, imageView2, imageView3;
     private int timeAnInt = 0;
@@ -17,9 +17,9 @@ public class PlayGame2 extends AppCompatActivity implements View.OnClickListener
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_play_game1);
 
-        imageView1 = (ImageView) findViewById(R.id.d);
-        imageView2 = (ImageView) findViewById(R.id.e);
-        imageView3 = (ImageView) findViewById(R.id.f);
+        imageView1 = (ImageView) findViewById(R.id.m);
+        imageView2 = (ImageView) findViewById(R.id.n);
+        imageView3 = (ImageView) findViewById(R.id.o);
 
         imageView1.setOnClickListener(this);
         imageView2.setOnClickListener(this);
@@ -34,13 +34,13 @@ public class PlayGame2 extends AppCompatActivity implements View.OnClickListener
         Log.d("16janV3", "click OK");
 
         switch (view.getId()) {
-            case R.id.d:
+            case R.id.m:
                 clickImage(imageView1);
                 break;
-            case R.id.e:
+            case R.id.n:
                 clickImage(imageView2);
                 break;
-            case R.id.f:
+            case R.id.o:
                 clickImage(imageView3);
                 break;
 
@@ -53,7 +53,7 @@ public class PlayGame2 extends AppCompatActivity implements View.OnClickListener
         imageView.setImageResource(R.drawable.boo);
         timeAnInt += 1;
         if (timeAnInt == 3) {
-            startActivity(new Intent(PlayGame2.this, PlayGame3.class));
+            startActivity(new Intent(PlayGame5.this, PlayGame6.class));
         }
     }
 }   // Main Class

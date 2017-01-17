@@ -94,7 +94,14 @@
         <activity android:name=".Type2Animal" />
         <activity android:name=".PlayGame1" />
         <activity android:name=".PlayGame2" />
-        <activity android:name=".PlayGame3"></activity>
+        <activity android:name=".PlayGame3" />
+        <activity android:name=".PlayGame4" />
+        <activity android:name=".PlayGame5" />
+        <activity android:name=".PlayGame6" />
+        <activity android:name=".PlayGame7" />
+        <activity android:name=".PlayGame8" />
+        <activity android:name=".PlayGame9" />
+        <activity android:name=".PlayGame10"></activity>
     </application>
 
 </manifest>

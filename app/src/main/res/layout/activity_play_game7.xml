@@ -2,38 +2,40 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_play_game3"
+    android:id="@+id/activity_play_game7"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.rtc.somruethaianusa.test.PlayGame3"
-    android:background="@drawable/bg2">
+    tools:context="com.example.rtc.somruethaianusa.test.PlayGame7"
+    android:background="@drawable/bg6">
 
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
         app:srcCompat="@drawable/boo"
-        android:id="@+id/g"
-        android:layout_marginTop="90dp"
-        android:layout_marginLeft="40dp" />
+        android:id="@+id/s"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="5dp" />
+
+    <ImageView
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/boo"
+        android:id="@+id/t"
+        android:layout_width="50dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="280dp" />
 
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
         app:srcCompat="@drawable/boo"
-        android:id="@+id/h"
-        android:layout_marginTop="210dp"
-        android:layout_marginLeft="160dp" />
-
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        app:srcCompat="@drawable/boo"
-        android:id="@+id/i"
-        android:layout_alignTop="@+id/g"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:id="@+id/u"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp" />
 </RelativeLayout>
