@@ -16,21 +16,18 @@
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        app:srcCompat="@drawable/boo"
         android:id="@+id/d"
         android:layout_marginTop="210dp" />
 
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        app:srcCompat="@drawable/boo"
         android:id="@+id/e"
         android:layout_marginLeft="280dp" />
 
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        app:srcCompat="@drawable/boo"
         android:id="@+id/f"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
