@@ -101,7 +101,8 @@
         <activity android:name=".PlayGame7" />
         <activity android:name=".PlayGame8" />
         <activity android:name=".PlayGame9" />
-        <activity android:name=".PlayGame10"></activity>
+        <activity android:name=".PlayGame10" />
+        <activity android:name=".viewing"></activity>
     </application>
 
 </manifest>

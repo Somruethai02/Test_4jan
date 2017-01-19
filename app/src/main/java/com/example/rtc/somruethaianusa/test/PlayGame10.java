@@ -53,7 +53,7 @@ public class PlayGame10 extends AppCompatActivity implements View.OnClickListene
         imageView.setImageResource(R.drawable.boo);
         timeAnInt += 1;
         if (timeAnInt == 3) {
-            startActivity(new Intent(PlayGame10.this, PlayGame1.class));
+            startActivity(new Intent(PlayGame10.this, viewing.class));
         }
     }
 }   // Main Class
