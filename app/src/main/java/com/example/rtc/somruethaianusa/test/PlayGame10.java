@@ -15,7 +15,7 @@ public class PlayGame10 extends AppCompatActivity implements View.OnClickListene
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_play_game1);
+        setContentView(R.layout.activity_play_game10);
 
         imageView1 = (ImageView) findViewById(R.id.bb);
         imageView2 = (ImageView) findViewById(R.id.cc);

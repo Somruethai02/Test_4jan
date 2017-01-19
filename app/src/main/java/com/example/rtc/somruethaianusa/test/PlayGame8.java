@@ -15,7 +15,7 @@ public class PlayGame8 extends AppCompatActivity implements View.OnClickListener
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_play_game1);
+        setContentView(R.layout.activity_play_game8);
 
         imageView1 = (ImageView) findViewById(R.id.v);
         imageView2 = (ImageView) findViewById(R.id.w);

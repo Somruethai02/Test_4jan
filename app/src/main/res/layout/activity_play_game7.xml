@@ -15,7 +15,6 @@
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        app:srcCompat="@drawable/boo"
         android:id="@+id/s"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
@@ -25,7 +24,6 @@
 
     <ImageView
         android:layout_height="50dp"
-        app:srcCompat="@drawable/boo"
         android:id="@+id/t"
         android:layout_width="50dp"
         android:layout_marginTop="120dp"
@@ -34,7 +32,6 @@
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        app:srcCompat="@drawable/boo"
         android:id="@+id/u"
         android:layout_marginTop="100dp"
         android:layout_marginLeft="100dp" />
