@@ -12,7 +12,7 @@
     tools:context="com.example.rtc.somruethaianusa.test.KnowleageActivity">
 
     <TextView
-        android:text="TextView"
+        android:text="สัตว์ป่า"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView"
@@ -29,7 +29,7 @@
         android:layout_alignParentStart="true">
 
         <Button
-            android:text="Button"
+            android:text="สัตว์ป่าสงวน"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button"
@@ -37,7 +37,7 @@
             android:layout_weight="1" />
 
         <Button
-            android:text="Button"
+            android:text="สัตว์ป่าคุ้มครอง"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button2"
