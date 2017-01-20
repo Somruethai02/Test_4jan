@@ -102,7 +102,8 @@
         <activity android:name=".PlayGame8" />
         <activity android:name=".PlayGame9" />
         <activity android:name=".PlayGame10" />
-        <activity android:name=".viewing"></activity>
+        <activity android:name=".viewing" />
+        <activity android:name=".Gameover"></activity>
     </application>
 
 </manifest>
